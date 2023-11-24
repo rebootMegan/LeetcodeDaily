@@ -31,7 +31,7 @@ public class lc417 {
         for (int i = 0; i < numrows; i++) {
             for (int j =0; j < numcols; j++) {
                 if (pacificReachable[i][j] && atlanticReachable[i][j]) {
-                    res.add(List.of(i, j));
+                    res.add(Arrays.asList(i, j));
                 }
             }
         }
